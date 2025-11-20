@@ -20,6 +20,7 @@ public class MethodCollector {
         aAnotherMethod();
         aSecondMethod();
         methodCounter++;
+        anotherOne();
 
         printTicTacToeBoard();
         methodCounter++;
@@ -28,6 +29,10 @@ public class MethodCollector {
 
     private static void aFirstMethod() {
         System.out.println("MethodCollector aFirstMethod: This method has been created     by ");
+    }
+
+    private static void anotherOne(){
+        System.out.println("MethodCollector anotherOne: This method has been created by Finn ");
     }
 
     private static int subtracNumber(int firstNumber, int secondNumber) {
