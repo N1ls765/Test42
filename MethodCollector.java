@@ -17,6 +17,8 @@ public class MethodCollector {
         // hier kann die nächste Methode folgen.
         aSecondMethod();
         methodCounter++;
+        anotherOne();
+        methodCounter++;
     }
 
 
